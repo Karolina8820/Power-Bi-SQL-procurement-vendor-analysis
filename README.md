@@ -135,27 +135,3 @@ Weeks of stock is calculated as:
 
 Products with low stock coverage are highlighted to support replenishment prioritization.
 
-## Project Structure
-
-```text
-Power-Bi-SQL-procurement-vendor-analysis/
-│
-├── sql/
-│   ├── 00_purchase_prices_setup.sql
-│   ├── 01_data_setup.sql
-│   ├── 02_data_exploration.sql
-│   ├── 03_vendor_analysis.sql
-│   ├── 04_spend_analysis.sql
-│   ├── 05_price_analysis.sql
-│   ├── 06_purchase_performance.sql
-│   ├── 07_inventory_analysis.sql
-│   └── 08_views_for_powerbi.sql
-│
-├── powerbi/
-│   ├── overview.png
-│   ├── vendor_analysis.png
-│   ├── spend_analysis.png
-│   ├── inventory_analysis.png
-│   └── replenishment.png
-│
-└── README.md
